@@ -10,111 +10,158 @@
   <body class="page-body">
     <div class="wrapper">
       <header class="main-header">
-        <img class="main-logo" src="" alt="Интеко">
+        <div class="header-container">
+          <svg class="logo" width="150" height="40" viewBox="0 0 150 40">
+            <image xlink:href="data:img/png;base64,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"/>
+          </svg>
+          <a class="link" href="https://www.google.com/" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 20 20">
+              <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACIklEQVQ4ja2VQUhUcRDGf/vchCICIRIvQx06dEhShDqIEJVnsQKxxSAPodBVr17tGiQdVkhtKVLxFqgQhEhdVtCDQodiLksRCBF5CEUGvod/1oUuO/DYefP/5mPeN/OfLdDAzOw8MAwMAJ1Au1A/gG1gBai4+5/67FOEZvYEmAYuKrQLZPKPgGvyfwGT7j6b5mcJUauZzQNl4AOwD3wGeoA9PT2K7QtTjpzIPUUoohLwFqgCZ4ERd/+bA+SP6KwqbEm5J4T6zDhYBoaA5+G7+9d6SRRbFmZIfkkcFNSAbyJ4amZjwEvlRwM2gNt6/wj0qlFh4+4+Y2avgEHgSqZuXgCmBGoBfgP90qsLuKynS7F+YVqUMyWO4aJGY93dazrsDn3cfQ1YkyQr+tyBpIlVYSNeM7P14MpU/qdEpo7A1GvXwFzY3IKjMzT8B+wkJH0ai50EfFO/X5LYdaAtKcYilo5NU6yo6/TO3aelTQzsT3d/nOjVSMPXwKU8ZmaT8Z5pNPqS6moq/39mwuYWHNtFXfQXZtahTkf37pvZPeCBtLqhKjal7aI6vKR4NOcu8CwqrGim8jk81EytAreALeC7ni3FVoU5TOYwOCoFTq5eWdcoJj46/97dHzXS0MzeAA+BM0nOaGyeTMBYQQs6iAs/Eb6ZXa3XUbFBYQIb/kK+xkLD3EblxJKICg+AOTO7k5Cdi5jOQsNYDlFIntv8BdvcvwDgGDlZzTZzgAujAAAAAElFTkSuQmCC"/>
+            </svg>
+          </a>
+        </div>
       </header>
       
       <main class="main-container">
 	      <section class="company-about">
-          <img src="" alt="Интеко">
-          <h1>Кто мы</h1>
-          <p>«ИНТЕКО» – прогрессивный девелопер с государственным участием. 
-            Компания активно участвует в развитии городов: возводит современные жилые комплексы и социально значимые объекты, создает комфортные общественные пространства, формируя новые точки притяжения и современную среду для комфортной жизни.  
-            Компания включена в перечень системообразующих организаций строительной отрасли. Президент компании – Александр Николаев является членом Общественного совета при Минстрое РФ.</p>
+          <div class="company-about-title">
+            <h1>Кто мы</h1>
+            <p>«ИНТЕКО» – прогрессивный девелопер с государственным участием.</p>
+            <p>Компания активно участвует в развитии городов: возводит современные жилые комплексы и социально значимые объекты, создает комфортные общественные пространства, формируя новые точки притяжения и современную среду для комфортной жизни.</p>
+            <p>Компания включена в перечень системообразующих организаций строительной отрасли. Президент компании – Александр Николаев является членом Общественного совета при Минстрое РФ.</p>
+          </div>
+          <img class="company-photo" src="/img/IntecoMain.jpg" alt="Интеко">
         </section>
 
         <section class="company-projects">
-          <h1>Наши проекты</h1>
-          <p>За 19 лет на рынке недвижимости компания реализовала более 80 проектов в Москве, Ростове-на-Дону, Санкт-Петербурге и Ленинградской области и построила более 5 млн кв. м.</p>
+          <div class="company-projects-title">
+            <h1>Наши проекты</h1>
+            <p>За 19 лет на рынке недвижимости компания реализовала более 80 проектов в Москве, Ростове&#8209;на&#8209;Дону, Санкт&#8209;Петербурге и&#160;Ленинградской области и построила более 5 млн кв. м.</p>
+          </div>
           <div class="slider-projects">
             <ul class="slider-list-projects">
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-project current-project">
+                <img src="/img/projects/01.jpg" alt="Слайд 1">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-project">
+                <img src="/img/projects/02.jpg" alt="Слайд 2">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-project">
+                <img src="/img/projects/03.jpg" alt="Слайд 3">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-project">
+                <img src="/img/projects/04.jpg" alt="Слайд 4">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-project">
+                <img src="/img/projects/05.jpg" alt="Слайд 5">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-project">
+                <img src="/img/projects/06.jpg" alt="Слайд 6">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-project">
+                <img src="/img/projects/07.jpg" alt="Слайд 7">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-project">
+                <img src="/img/projects/08.jpg" alt="Слайд 8">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-project">
+                <img src="/img/projects/09.jpg" alt="Слайд 9">
               </li>
             </ul>
-            <div class="slider-controls slider-foto">
-              <button type="button" aria-label="1"></button>
-              <button class="current" type="button" aria-label="2"></button>
-              <button type="button" aria-label="3"></button>
-              <button type="button" aria-label="4"></button>
-              <button type="button" aria-label="5"></button>
-              <button type="button" aria-label="6"></button>
-              <button type="button" aria-label="7"></button>
-              <button type="button" aria-label="8"></button>
-              <button type="button" aria-label="9"></button>
+            <div class="slider-controls slider-foto slider-foto-projects">
+              <button class="point-project" type="button" aria-label="1"></button>
+              <button class="point-project" type="button" aria-label="2"></button>
+              <button class="point-project" type="button" aria-label="3"></button>
+              <button class="point-project" type="button" aria-label="4"></button>
+              <button class="point-project" type="button" aria-label="5"></button>
+              <button class="point-project current-point-project" type="button" aria-label="6"></button>
+              <button class="point-project" type="button" aria-label="7"></button>
+              <button class="point-project" type="button" aria-label="8"></button>
+              <button class="point-project" type="button" aria-label="9"></button>
             </div>
           </div>
-          <h3>Среди знаковых проектов:</h3>
-          <p>Легендарный элитный комплекс в Хамовниках «Садовые кварталы», ЖК бизнес-класса «West Garden», ЖК комфорт-класса «Вестердам», ЖК «Шуваловский», ЖК «DOMINION», ЖК «Гранд-паркъ», Здания МГУ имени М. В. Ломоносова, Авторский дом премиум-класса на Врубеля, 4, Элитный комплекс апартаментов Balchug Residence, элитный комплекс апарт-резиденций Balchug Viewpoint.</p>
-          <P>Из года в год проекты «ИНТЕКО» побеждают в престижных российских и международных отраслевых премиях, что подтверждает признание профессионального сообщества и любовь наших клиентов. Компания стала обладателям уже более 35 наград и продолжает запускать новые яркие проекты на рынке недвижимости.</P>
+          <div class="company-projects-description">
+            <p class="title">Среди знаковых проектов:</p>
+            <p class="text">Легендарный элитный комплекс в Хамовниках «Садовые кварталы», ЖК бизнес&#8209;класса «West Garden», ЖК комфорт&#8209;класса «Вестердам», ЖК&#160;«Шуваловский», ЖК&#160;«DOMINION», ЖК&#160;«Гранд&#8209;паркъ», Здания МГУ имени М.&#160;В.&#160;Ломоносова, Авторский дом премиум&#8209;класса на Врубеля, 4, Элитный комплекс апартаментов Balchug Residence, элитный комплекс апарт&#8209;резиденций Balchug Viewpoint.</p>
+          </div>
+          <a class="arrows arrows-projects" href="#">
+            <svg width="20" height="18" viewBox="0 0 20 18">
+              <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAw0lEQVQ4je3UsSrGcRjF8Q9JsigMRwaz4gpcgE0mg9X9SHa5B5sLsMviCtSTMBpk0O+fV+o/vb/3neQ7Pp1O56nnOXpJspXkIcneb4vFbkcKj7hJsjEZLoxkU5BkFXd4w2FVfc6SUFW94xj7OB8SJrkfKadnG5s4W8LFHAwnfIwm//xB2h2eYnleq7U7XMEVXvA0UvSQ5DLJc5KdWb2GckjSkt5iHQffP9rFUA6tJXCCNVwn6W6hn7apqlccYbeF7nLDF6nGJoOE+d9wAAAAAElFTkSuQmCC"/>
+            </svg>
+          </a>
+          <p class="company-projects-winners">Из года в год проекты «ИНТЕКО» побеждают в престижных российских и международных отраслевых премиях, что подтверждает признание профессионального сообщества и любовь наших клиентов. Компания стала обладателям уже более 35 наград и продолжает запускать новые яркие проекты на рынке недвижимости.</p>
         </section>
 
         <section class="company-now">
           <h1>Интеко сейчас</h1>
-          <p>Центральный офис «ИНТЕКО» расположен в Москве, также у компании есть представительства в Ростове-на-Дону и Санкт-Петербурге. На данный момент «ИНТЕКО» находится в стадии реализации стратегической программы трансформации:</p>
-          <p>Более 2000 человек Общая численность персонала</p>
-          <p>около 1,2 млн кв. м. Объем текущего строительства</p>
-          <ul>
-            <li>В 2019 г. состоялся ребрендинг</li>
-            <li>Компания одной из первых в России перешла на работу по новым правилам строительной отрасли, предполагающей использование эскроу-счетов</li>
-            <li>Происходит комплексная цифровизация бизнес-процессов</li>
-            <li>Запускаются новые масштабные девелоперские проекты</li>
-            <li>Компания реализует нестандартные имиджевые проекты, поддерживает творчество современных российских художников по созданию крупных уличных скульптур</li>
-          </ul>
-          <img src="" alt="">
+          <div class="company-now-info">
+            <p class="company-now-text">Центральный офис «ИНТЕКО» расположен в Москве, также&#160;у компании есть представительства в Ростове&#8209;на&#8209;Дону и Санкт&#8209;Петербурге. На&#160;данный момент «ИНТЕКО» находится в&#160;стадии реализации стратегической программы трансформации:</p>
+            <div class="allocation-wrapper">
+              <div class="allocation-first">
+                <p class="caps-title">Более</p>
+                <p class="numbers">2000</p>
+                <p class="caps">человек</p>
+                <p class="normal">Общая численность персонала</p>
+              </div>
+              <div class="allocation-second">
+                <p class="caps-title">около</p>
+                <p class="numbers">1,2</p>
+                <p class="caps">млн кв. м.</p>
+                <p class="normal">Объем текущего строительства</p>
+              </div>
+            </div>
+          </div>
+          <div class="company-now-description">
+            <ul class="list-description">
+              <li>В 2019 г. состоялся ребрендинг</li>
+              <li>Компания одной из первых в России перешла на работу по новым правилам строительной отрасли, предполагающей использование эскроу-счетов</li>
+              <li>Происходит комплексная цифровизация бизнес-процессов</li>
+              <li>Запускаются новые масштабные девелоперские проекты</li>
+              <li>Компания реализует нестандартные имиджевые проекты, поддерживает творчество современных российских художников по созданию крупных уличных скульптур</li>
+            </ul>
+          </div>
+          <img class="company-now-photo" src="/img/IntecoNow.jpg" alt="Интеко сейчас">
         </section>
 
         <section class="company-philosophy">
           <h1>Основные принципы работы с персоналом</h1>
           <div class="slider-company-philosophy">
+            <svg class="divider" width="1080" height="4" viewBox="0 0 1080 4">
+              <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAABDgAAAAECAYAAABr549KAAAAq0lEQVR4nO3YsW1CMRAG4IOJwgapXOMNKNxDJgF6SxnB1O4yAWyUKLX1IBJ6Ul7yfe1vneTzycWtUmmfcV/uNV+mTqTSDhFxHILnvPWaT1MVUmnbiGhDMI+PXvPrvco/6OGcNr3m21T9VNouIt6H4H941Js5Zpff7dFMfP87+yEA/opzr/kwdZdU2ktEXIcAAFiEtWcCAAAAls6CAwAAAFg8Cw4AAABg2SLiC7a/JWD4QMsDAAAAAElFTkSuQmCC"/>
+            </svg>
+            <svg class="divider-small" width="236" height="4" viewBox="0 0 236 4">
+              <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAAAECAYAAACNxNP7AAAAlUlEQVRIie3TsQ3CMBCF4T+InowEzfU3AY17RmEBSxnB1K6SiaIsADRUnCNZKESydF/5fD7Ltq6TkDoKctSXTWGtvta/+n7b65zac53bwhF4lvpISJccdTQLMABXk9ZZgH6lcgZOJv2RhKQ56qOw+w7cTLqNCTiXOklIrQ7ylKOaO0lI/efP3H6Wgz+2c+3wgXWuFcAbtRYmTzWaTpoAAAAASUVORK5CYII="/>
+            </svg>            
+            <a class="arrows arrows-philosophy" href="#">
+              <svg width="20" height="18" viewBox="0 0 20 18">
+                <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAw0lEQVQ4je3UsSrGcRjF8Q9JsigMRwaz4gpcgE0mg9X9SHa5B5sLsMviCtSTMBpk0O+fV+o/vb/3neQ7Pp1O56nnOXpJspXkIcneb4vFbkcKj7hJsjEZLoxkU5BkFXd4w2FVfc6SUFW94xj7OB8SJrkfKadnG5s4W8LFHAwnfIwm//xB2h2eYnleq7U7XMEVXvA0UvSQ5DLJc5KdWb2GckjSkt5iHQffP9rFUA6tJXCCNVwn6W6hn7apqlccYbeF7nLDF6nGJoOE+d9wAAAAAElFTkSuQmCC"/>
+              </svg>
+            </a>
             <ul class="slider-list-philosophy">
-              <li>
-                <h3>Обеспечение достойного уровня жизни сотрудников</h3>
-                <p>«ИНТЕКО» заботится о сотрудниках и предлагает широкий компенсационный пакет.  Система материальной мотивации состоит из фиксированной (оклад) и переменной (премия) частей и адаптирована под актуальные задачи бизнеса, обеспечивая четкую взаимосвязь между результатами труда каждого отдельного работника, бизнес-результатами компании в целом и вознаграждением. Социальный пакет регулярно пересматривается, подстраиваясь под актуальные запросы сотрудников.</p>
+              <li class="slider-item-philosophy current-philosophy">
+                <p class="title">Обеспечение достойного уровня жизни сотрудников</p>
+                <p class="text">«ИНТЕКО» заботится о сотрудниках и предлагает широкий компенсационный пакет.  Система материальной мотивации состоит из фиксированной (оклад) и переменной (премия) частей и адаптирована под актуальные задачи бизнеса, обеспечивая четкую взаимосвязь между результатами труда каждого отдельного работника, бизнес&#8209;результатами компании в целом и вознаграждением. Социальный пакет регулярно пересматривается, подстраиваясь под актуальные запросы сотрудников.</p>
               </li>
-              <li>
-                <h3>Непрерывное развитие персонала</h3>
-                <p>«ИНТЕКО» стремится к формированию обучающей рабочей среды, в которой новые знания и опыт сотрудники получают естественным путем – в рамках текущей деятельности, в процессах рабочего взаимодействия, через участие в девелоперских и трансформационных проектах. На внутрикорпоративных ресурсах формируется база знаний и инструментарий, с помощью которых сотрудники могут самостоятельно изучать интересующие их темы. В компании есть у кого учиться: представители «ИНТЕКО» являются авторитетными экспертами, чье мнение публикуют РБК, «Коммерсантъ», «Ведомости», ТАСС, «Интерфакс», «Строительная газета» и чьи интервью транслируют Business FM и РБК-ТВ.</p>
+              <li class="slider-item-philosophy">
+                <p class="title">Непрерывное развитие персонала</p>
+                <p class="text">«ИНТЕКО» стремится к формированию обучающей рабочей среды, в которой новые знания и опыт сотрудники получают естественным путем – в рамках текущей деятельности, в процессах рабочего взаимодействия, через участие в девелоперских и трансформационных проектах. На внутрикорпоративных ресурсах формируется база знаний и инструментарий, с помощью которых сотрудники могут самостоятельно изучать интересующие их темы. В компании есть у кого учиться: представители «ИНТЕКО» являются авторитетными экспертами, чье мнение публикуют РБК, «Коммерсантъ», «Ведомости», ТАСС, «Интерфакс», «Строительная газета» и чьи интервью транслируют Business FM и РБК&#8209;ТВ.</p>
               </li>
-              <li>
-                <h3>Приоритет внутренних кандидатов</h3>
-                <p>Формируя команду, компания сочетает методы внутреннего и внешнего найма, при этом на ряд позиций приоритетно рассматриваются сотрудники компании.</p>
+              <li class="slider-item-philosophy">
+                <p class="title">Приоритет внутренних кандидатов</p>
+                <p class="text">Формируя команду, компания сочетает методы внутреннего и внешнего найма, при этом на ряд позиций приоритетно рассматриваются сотрудники компании.</p>
               </li>
-              <li>
-                <h3>Объективность оценки и критериев отбора кандидатов</h3>
-                <p>Кандидаты проходят многоступенчатое интервью по компетенциям: с HR, непосредственным и вышестоящими профильными руководителями. Оценка по формальным профессиональным параметрам обеспечивает ее объективность и возможность сравнения кандидатов по единым критериям. Для оценки кандидатов на некоторые позиции предусмотрено профессиональное тестирование.</p>
+              <li class="slider-item-philosophy">
+                <p class="title">Объективность оценки и критериев отбора кандидатов</p>
+                <p class="text">Кандидаты проходят многоступенчатое интервью по компетенциям: с HR, непосредственным и вышестоящими профильными руководителями. Оценка по формальным профессиональным параметрам обеспечивает ее объективность и возможность сравнения кандидатов по единым критериям. Для оценки кандидатов на некоторые позиции предусмотрено профессиональное тестирование.</p>
               </li>
-              <li>
-                <h3>Сбалансированный подход к формированию кадрового состава</h3>
-                <p>Сотрудники «ИНТЕКО» –вчерашние выпускники вузов, профильные специалисты, зрелые руководители, имеющие многолетний опыт работы в отрасли. Средний возраст сотрудников компании – 39 лет.</p>
+              <li class="slider-item-philosophy">
+                <p class="title">Сбалансированный подход к формированию кадрового состава</p>
+                <p class="text">Сотрудники «ИНТЕКО» – вчерашние выпускники вузов, профильные специалисты, зрелые руководители, имеющие многолетний опыт работы в отрасли. Средний возраст сотрудников компании – 39 лет.</p>
               </li>
             </ul>
-            <div class="slider-controls slider-text">
+            <div class="slider-controls slider-text slider-controls-text">
               <button type="button" aria-label="Первый слайд"></button>
-              <button class="current" type="button" aria-label="Второй слайд"></button>
+              <button class="current-point" type="button" aria-label="Второй слайд"></button>
               <button type="button" aria-label="Третий слайд"></button>
               <button type="button" aria-label="Четвертый слайд"></button>
               <button type="button" aria-label="Пятый слайд"></button>
@@ -125,72 +172,79 @@
         <section class="working-conditions">
           <h1>Компания предлагает своим сотрудникам</h1>
           <div class="slider-working-conditions">
-            <ul class="slider-list-philosophy">
-              <li>
-                <img src="" alt="">
+            <ul class="slider-list-conditions">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/01.jpg" alt="Слайд 1">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/02.jpg" alt="Слайд 2">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/03.jpg" alt="Слайд 3">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/04.jpg" alt="Слайд 4">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/05.jpg" alt="Слайд 5">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/06.jpg" alt="Слайд 6">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/07.jpg" alt="Слайд 7">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions  current-condition">
+                <img src="/img/conditions/08.jpg" alt="Слайд 8">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/09.jpg" alt="Слайд 9">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/10.jpg" alt="Слайд 10">
               </li>
-              <li>
-                <img src="" alt="">
+              <li class="slider-item-conditions">
+                <img src="/img/conditions/11.jpg" alt="Слайд 11">
               </li>
             </ul>
-            <div class="slider-controls slider-foto">
+            <a class="arrows arrows-conditions" href="#">
+              <svg width="20" height="18" viewBox="0 0 20 18">
+                <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAw0lEQVQ4je3UsSrGcRjF8Q9JsigMRwaz4gpcgE0mg9X9SHa5B5sLsMviCtSTMBpk0O+fV+o/vb/3neQ7Pp1O56nnOXpJspXkIcneb4vFbkcKj7hJsjEZLoxkU5BkFXd4w2FVfc6SUFW94xj7OB8SJrkfKadnG5s4W8LFHAwnfIwm//xB2h2eYnleq7U7XMEVXvA0UvSQ5DLJc5KdWb2GckjSkt5iHQffP9rFUA6tJXCCNVwn6W6hn7apqlccYbeF7nLDF6nGJoOE+d9wAAAAAElFTkSuQmCC"/>
+              </svg>
+            </a>
+            <div class="slider-controls slider-foto slider-foto-conditions">
               <button type="button" aria-label="1"></button>
-              <button class="current" type="button" aria-label="2"></button>
+              <button type="button" aria-label="2"></button>
               <button type="button" aria-label="3"></button>
               <button type="button" aria-label="4"></button>
               <button type="button" aria-label="5"></button>
               <button type="button" aria-label="6"></button>
               <button type="button" aria-label="7"></button>
-              <button type="button" aria-label="8"></button>
+              <button class="current-point" type="button" aria-label="8"></button>
               <button type="button" aria-label="9"></button>
               <button type="button" aria-label="10"></button>
               <button type="button" aria-label="11"></button>
             </div>
           </div>
-          <ul>
-            <li>работу в центре Москвы, в 1 минуте ходьбы от ст. метро «Красные ворота»</li>
-            <li>полное соблюдение норм трудового законодательства</li>
-            <li>возможность адаптации графика работы под индивидуальные потребности</li>
-            <li>возможность удаленного режима работы</li>
-            <li>своевременную выплату заработной платы</li>
-            <li>прозрачную систему KPI и премирования по итогам работы за год</li>
-            <li>корпоративные программы скидок и выгодные предложения от партнеров</li>
-            <li>материальную поддержку</li>
-            <li>добровольное медицинское страхование (включая стоматологию, страхование выезжающих за рубеж, а также льготную стоимость страховки для членов семьи сотрудника)</li>
-            <li>широкие возможности для совместного времяпрепровождения вне работы: спортивные и интеллектуальные игры (в компании есть самообразующиеся группы по футболу, бегу и интеллектуальным викторинам), корпоративные праздники, участие в мероприятиях, проводимых Советом молодых специалистов строительной отрасли г. Москвы, и многое другое.</li>
-          </ul>
+          <div class="working-conditions-list">
+            <ul class="list-conditions">
+              <li>работу в центре Москвы, в 1 минуте ходьбы от ст. метро «Красные ворота»</li>
+              <li>полное соблюдение норм трудового законодательства</li>
+              <li>возможность адаптации графика работы под индивидуальные потребности</li>
+              <li>возможность удаленного режима работы</li>
+              <li>своевременную выплату заработной платы</li>
+              <li>прозрачную систему KPI и премирования по итогам работы за год</li>
+              <li>корпоративные программы скидок и выгодные предложения от партнеров</li>
+              <li>материальную поддержку</li>
+              <li>добровольное медицинское страхование (включая стоматологию, страхование выезжающих за рубеж, а также льготную стоимость страховки для членов семьи сотрудника)</li>
+              <li>широкие возможности для совместного времяпрепровождения вне работы: спортивные и интеллектуальные игры (в компании есть самообразующиеся группы по футболу, бегу и интеллектуальным викторинам), корпоративные праздники, участие в мероприятиях, проводимых Советом молодых специалистов строительной отрасли г. Москвы, и многое другое.</li>
+            </ul>
+          </div>
         </section>
       </main>
     </div>
 
-    <script src="***.js"></script>
+    <script src="/js/script.js"></script>
 
   </body>
 </html>
