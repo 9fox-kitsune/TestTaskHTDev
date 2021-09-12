@@ -1,1 +1,1 @@
-https://9fox-kitsune.github.io/TestTaskHTDev/
+https://9fox-kitsune.github.io/inteco/
