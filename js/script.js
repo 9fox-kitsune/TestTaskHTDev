@@ -31,27 +31,6 @@ switchArrowsProjects.addEventListener("click", function (evt) {
     }
 });
 
-// // Просмотр фото в разделе "Наши проекты", кликом по точкам
-// switchPointsProjects.addEventListener("click", function (evt) {
-//     evt.preventDefault();
-//     for (let i = 0; i < photosProjects.length; i++) {
-//         currentPoint = document.querySelector('.current-point-project');
-//         if (currentItem == photosProjects[i]) {
-//             currentItem.classList.remove("current-project");
-//             currentPoint.classList.remove("current-point-project");
-//             if (i != photosProjects.length - 1) {
-//                 i++;
-//                 photosProjects[i].classList.add("current-project");
-//                 pointsSliderProjects[i].classList.add("current-point-project");
-//             } else {
-//                 i = 0;
-//                 photosProjects[i].classList.add("current-project");
-//                 pointsSliderProjects[i].classList.add("current-point-project");
-//             }
-//         }
-//     }
-// });
-
 // Просмотр основных принципов работы с персоналом
 switchArrowsPhilosophy.addEventListener("click", function (evt) {
     evt.preventDefault();
